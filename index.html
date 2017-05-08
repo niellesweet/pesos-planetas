@@ -7,7 +7,14 @@
   <body>
     <h1>Tu peso en otro planeta</h1>
     <p>En la tierra pesas distinto que en otros planetas</p>
-
+	<form action="/action_page.php">
+	  Ingresa tu peso <input type="text" name="fname" id="pesoTierra"><br>
+	  <select id="seleccionarPlaneta">
+		  <option value="Marte">Marte</option>
+		  <option value="Jupiter">Jupiter</option>
+	</select>
+		<button type="button" onclick="Calcular()">Calcular!</button>
+	</form>
     <script type="text/javascript" src="assets/js/main.js"></script>
   
   </body>
