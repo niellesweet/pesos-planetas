@@ -1,0 +1,9 @@
+ body {
+    width: 100%;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align-last: center;
+}
